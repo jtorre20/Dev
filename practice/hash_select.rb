@@ -7,3 +7,4 @@ aunts: ["mary","sally","susan"]
 
 immediate_family = family.select {|k,v| (k == :sisters) || (k == :brothers)}
 print immediate_family.to_a.flatten
+    

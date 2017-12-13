@@ -9,7 +9,7 @@ puts brr.join(", ")
 require "pry"
 
 toppings = ["pickles", "mushrooms", "bacon"]
-=begin
+
 def hamburger(toppings)
     my_statements = []
 
@@ -20,10 +20,10 @@ binding.pry # For some reason it is not stopping at this binding.pry
 binding.pry    
     my_statements  
 end
-binding.pry
-puts "hello"
-=end
 
+hamburger(toppings)
+
+=begin
 def burger(toppings)
     toppings.collect do |topping|
       puts "I love #{topping} on my burgers"
@@ -31,4 +31,4 @@ binding.pry # ignores binding.pry
     end
 end
 
-  
+=end
